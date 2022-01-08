@@ -16,7 +16,6 @@ defaults:
     working-directory: 'warhorse.traefik_docker'
 
 jobs:
-
   release:
     name: Release
     runs-on: ubuntu-latest
