@@ -19,4 +19,6 @@ galaxy_info:
     - reverseproxy
     - docker
 
-dependencies: []
+dependencies:
+  - geerlingguy.docker
+  - geerlingguy.pip
