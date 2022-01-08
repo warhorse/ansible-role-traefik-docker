@@ -9,11 +9,6 @@
   with_items:
     - config
 
-- name: Setup
-  include_tasks: "{{ item }}.yml"
-  with_items:
-    - setup
-
 - name: Create Containers
   include_tasks: "{{ item }}.yml"
   with_items:
