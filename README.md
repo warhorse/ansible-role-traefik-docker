@@ -1,9 +1,9 @@
 Ansible Traefik (Docker)
 =========
 [![CI](https://github.com/warhorse/ansible-role-traefik-docker/workflows/CI/badge.svg?event=push)](https://github.com/warhorse/ansible-role-traefik-docker/actions?query=workflow%3ACI)
-[![warhorse.traefik_docker](https://img.shields.io/ansible/role/57521)](https://galaxy.ansible.com/warhorse/traefik_docker)
-[![warhorse.traefik_docker](https://img.shields.io/ansible/quality/57521)](https://galaxy.ansible.com/warhorse/traefik_docker)
-[![warhorse.traefik_docker](https://img.shields.io/ansible/role/d/57521)](https://galaxy.ansible.com/warhorse/traefik_docker)
+[![warhorse.traefik_docker](https://img.shields.io/ansible/role/57522)](https://galaxy.ansible.com/warhorse/traefik_docker)
+[![warhorse.traefik_docker](https://img.shields.io/ansible/quality/57522)](https://galaxy.ansible.com/warhorse/traefik_docker)
+[![warhorse.traefik_docker](https://img.shields.io/ansible/role/d/57522)](https://galaxy.ansible.com/warhorse/traefik_docker)
 ![License](https://img.shields.io/github/license/warhorse/ansible-role-traefik-docker)
 ![Commit](https://img.shields.io/github/last-commit/warhorse/ansible-role-traefik-docker)
 
