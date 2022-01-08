@@ -3,7 +3,7 @@
 # Setup vars
 traefik_dir: /etc/traefik
 traefik_hostname: "{{ inventory_hostname }}"
-traefik_network: traefik_proxy
+traefik_docker_network: traefik_proxy
 
 # quicksetup vars
 traefik_qs_send_anonymous_usage: "{{
@@ -18,7 +18,7 @@ traefik_qs_log_level: "{{ traefik_log_level | default('ERROR') }}"
 
 # service vars
 traefik_container_name: 'traefik'
-traefik_network_name: "{{ traefik_network }}"
+traefik_network_name: "{{ traefik_docker_network }}"
 traefik_network_ipam_temp: "{{ traefik_network_ipam | default({}) }}"
 traefik_network_ipam_subnet: "{{
   traefik_network_ipam_temp.subnet
