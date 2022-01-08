@@ -4,7 +4,8 @@
 traefik_dir: /etc/traefik
 traefik_hostname: "{{ inventory_hostname }}"
 traefik_docker_network: traefik_proxy
-traefik_env: ''
+traefik_env:
+  EMPTY: 'EMPTY'
 
 # quicksetup vars
 traefik_qs_send_anonymous_usage: "{{
