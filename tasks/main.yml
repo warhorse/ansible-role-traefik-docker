@@ -12,4 +12,4 @@
 - name: Create Containers
   include_tasks: "{{ item }}.yml"
   with_items:
-    - neo4j
+    - traefik
